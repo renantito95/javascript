@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Variables: Task 3</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+    </section>
+
+  </body>
+  <script>
+    // Add your code here
+
+    const myName = "Chris";
+    
+
+    const myAge = 42;
+    
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+
+    const para1 = document.createElement('p');
+    const para2 = document.createElement('p');
+    para1.textContent = myName;
+    para2.textContent = `In 20 years, I will be ${myAge + 20}`;
+    section.appendChild(para1);
+    section.appendChild(para2);
+  </script>
+
+  Operadores de atribuiçao 
+    Operadores de atribuição são os que atribuem um valor a uma variavel.Nos ja usamos o básico, =, muitas vezes, simplesmente atribuindo á variavel do lado esquerdo o valor indicado do lado direito do operador:
+      var x = 3; // x contém o valor 3
+      var y = 4; // y contém o valor 4
+      x = y; // x agora contém o mesmo valor de y, 4
+    Mas existem alguns tipos mais complexos, que fornecem atalhos úteis para manter seu código mais puro e mais eficiente. Os mais comuns estão listados abaixo:
+      += Atribuiçao de adição -> adiciona o valor a direita ao valor da variavel a esquerda e, em seguida, retorna o novo valor da variavel. Ex; 
+          x = 3; x
+          += 4;
+          x = 3; x
+          = x + 4;
+      -= Atribuição de subtração -> Subtrai o valor a direita do valor da variavel a esquerda e retorna o novo valor da variavel. Ex;
+        x = 6; x
+        -= 3;
+        x = 6; x
+        = x - 3;
+      *= Atribuição de multiplicação -> Multiplica o valor da variável a esquerda pelo valor a direita e retorna o novo valor da variável. Ex;
+        x = 2; x
+        *= 3;
+        x = 2; x
+        = x *3;
+      /* Atribuiçao de divisão -> Divide o valor da variável a esquerda pelo valor a direita e retorna o novo valor da variável.
+        x = 10; x
+        /= 5;
+        x = 10; x
+        = x / 5;
+
+      Note que voce pode muito bem usar outros valores no lado direito de cada expressão, por exemplo;
+
+        var x = 3; // x contem o valor  3
+        var y = 4; // y contem o valor  4
+        x *= y; // x agora contem o valor 12
+
+      
+
+</html>
